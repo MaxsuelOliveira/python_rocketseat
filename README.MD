@@ -1,66 +1,65 @@
-# Rocketseat Python
+# 🚀 Rocketseat Python
 
-Repositório com pequenos projetos Python usados no curso da Rocketseat. Contém exercícios de introdução e POO organizados em pastas separadas.
+Repositório com pequenos projetos e exercícios desenvolvidos durante o **curso de Python da Rocketseat**.  
+Contém exemplos práticos de **introdução à linguagem** e **Programação Orientada a Objetos (POO)**, organizados em módulos separados.
 
-## Estrutura
+---
 
-- `curso_python_modulo_introducao/` - Projeto com exercícios de introdução (ex.: `todoist.py` e app com controller, model e view).
-- `curso_python_modulo_poo/` - Projetos de Programação Orientada a Objetos (POO), incluindo um jogo de batalha simples.
+## 🗂️ Estrutura do Repositório
 
-## Como usar
+📁 **`curso_python_modulo_introducao/`**  
+Projetos e exercícios introdutórios de Python, incluindo:  
+- `todoist.py` — app simples de tarefas.  
+- Estrutura MVC com `controller.py`, `model.py`, `view.py` e `db.py`.
 
-1. Clone o repositório para sua máquina.
-2. (Opcional) Crie um ambiente virtual Python:
+📁 **`curso_python_modulo_poo/`**  
+Exemplos e desafios de POO, com destaque para:  
+- `batalhar_games/` — mini jogo de batalha orientado a objetos.  
 
-```powershell
+---
+
+## ⚙️ Como Usar
+
+1️⃣ **Clone o repositório:**
+```bash
+git clone https://github.com/seu-usuario/rocketseat-python.git
+cd rocketseat-python
+2️⃣ (Opcional) Crie e ative um ambiente virtual:
+
+powershell
+Copiar código
 python -m venv .venv; .\.venv\Scripts\Activate
+ou no Linux/macOS:
+
+bash
+Copiar código
+python3 -m venv .venv && source .venv/bin/activate
+3️⃣ Execute os scripts:
+
+bash
+Copiar código
+python curso_python_modulo_introducao/todoist.py
+python curso_python_modulo_poo/batalhar_games/main.py
 ```
 
-3.Execute os scripts diretamente com Python. Exemplos:
+---
 
-```powershell
-python curso_python_modulo_introducao\todoist.py
-python curso_python_modulo_poo\batalhar_games\main.py
-```
+## 🧠 Boas Práticas
+✅ Use sempre um ambiente virtual (venv).
+✅ Evite commitar arquivos automáticos (__pycache__, .pyc, .env).
+✅ Escreva código limpo e legível.
+✅ Mantenha o repositório organizado em módulos.
 
-## Boas práticas
+---
 
-# rocketseat-_python_I
+## 🤝 Contribuindo
+Quer contribuir? Ótimo!
+Veja o arquivo CONTRIBUTING.md para orientações sobre como enviar PRs, abrir issues e sugerir melhorias.
 
-Repositório com pequenos projetos Python usados no curso da Rocketseat. Contém exercícios de introdução e exemplos de POO organizados em pastas separadas.
+---
 
-## Estrutura
+## 📄 Licença
+Este projeto está licenciado sob a Licença MIT.
+Consulte o arquivo LICENSE para mais detalhes.
 
-- `curso_python_modulo_introducao/` — exercícios introdutórios e um exemplo de app simples (MVC): `controller.py`, `model.py`, `view.py`, `db.py` e o script `todoist.py`.
-- `curso_python_modulo_poo/` — exemplos de Programação Orientada a Objetos e um pequeno jogo em `batalhar_games/`.
-
-## Como usar
-
-1. Clone o repositório para sua máquina.
-2. (Opcional) Crie e ative um ambiente virtual Python:
-
-```powershell
-python -m venv .venv; .\.venv\Scripts\Activate
-```
-
-3. Execute os scripts diretamente com Python. Exemplos:
-
-```powershell
-python curso_python_modulo_introducao\todoist.py
-python curso_python_modulo_poo\batalhar_games\main.py
-```
-
-## Boas práticas
-
-- Use um ambiente virtual.
-- Não comite arquivos gerados pelo Python (`__pycache__`, arquivos `.pyc`) nem suas credenciais.
-
-## Contribuindo
-
-Veja `CONTRIBUTING.md` para orientações de contribuição.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT — veja o arquivo `LICENSE` para detalhes.
-
-## Licença
+🧑‍💻 Desenvolvido com 💜 por Maxsuel David .
