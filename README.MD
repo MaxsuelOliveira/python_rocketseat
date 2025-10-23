@@ -16,8 +16,6 @@ Projetos e exercícios introdutórios de Python, incluindo:
 Exemplos e desafios de POO, com destaque para:  
 - `batalhar_games/` — mini jogo de batalha orientado a objetos.  
 
----
-
 ## ⚙️ Como Usar
 
 1️⃣ **Clone o repositório:**
@@ -42,21 +40,15 @@ python curso_python_modulo_introducao/todoist.py
 python curso_python_modulo_poo/batalhar_games/main.py
 ```
 
----
-
 ## 🧠 Boas Práticas
 ✅ Use sempre um ambiente virtual (venv).
 ✅ Evite commitar arquivos automáticos (__pycache__, .pyc, .env).
 ✅ Escreva código limpo e legível.
 ✅ Mantenha o repositório organizado em módulos.
 
----
-
 ## 🤝 Contribuindo
 Quer contribuir? Ótimo!
 Veja o arquivo CONTRIBUTING.md para orientações sobre como enviar PRs, abrir issues e sugerir melhorias.
-
----
 
 ## 📄 Licença
 Este projeto está licenciado sob a Licença MIT.
