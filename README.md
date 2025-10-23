@@ -1,4 +1,4 @@
-# rocketseat-_python_I
+# Rocketseat Python
 
 Repositório com pequenos projetos Python usados no curso da Rocketseat. Contém exercícios de introdução e POO organizados em pastas separadas.
 
